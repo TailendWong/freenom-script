@@ -3,3 +3,7 @@
 #0 9 * * 0 root bash -c 'sleep $((RANDOM \% 60))m; /usr/local/bin/freenom.sh -r -a'
 #0 * * * * root bash -c 'sleep $((RANDOM \% 15))m; /usr/local/bin/freenom.sh -u example.tk'
 #0 * * * * root bash -c 'sleep $((RANDOM \% 15))m; /usr/local/bin/freenom.sh -u example.tk -s mysubdom'
+
+# custom this is my test demo
+0 9 * * 0 /opt/freenom.sh -r -a
+0 * * * * /opt/freenom.sh -u honia.tk -s api
